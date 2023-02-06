@@ -1,0 +1,326 @@
+/*фони сторінок*/
+body{
+  margin: 0;
+  
+}
+.ooo{
+  padding: auto; 
+  max-width: 1900px;
+
+}
+.fon{
+  background: url("green.jpg")  no-repeat;
+  background-size: 800px;
+  background-color: rgba(32, 31, 32, 0.3);
+  background-position: center;
+  height: 920px;
+  padding: auto;
+   margin: auto;
+  
+}
+
+.fon2{
+  background: linear-gradient( rgb(146, 199, 156),rgb(224, 232, 233)); 
+  background-size: cover;
+  height: 960px;
+  
+  margin: auto;
+}
+.fon3{
+  background: linear-gradient(rgb(224, 232, 233), rgb(146, 199, 156)); 
+  background-size: cover;
+  height: 960px;
+  margin: auto;
+}
+.adaptation .fon3{
+  background: linear-gradient(rgb(224, 232, 233), rgb(146, 199, 156)); 
+height: 2000px;
+}
+.head>input{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:10px;
+    left: 10px;
+}
+/*меню*/
+.menu {
+ 
+    z-index:auto;
+    display:none;
+    text-align:center;
+}
+  
+  .menu li  {
+    padding: 50px;
+    padding-right:100px;
+      text-decoration:none;
+      list-style-type: none;
+      font-size: 40px;
+    display: inline-flex;
+  }
+  
+   .menu li  a {
+      text-decoration:none;
+      color:black;
+
+    
+  } 
+  .menu li a:hover{
+    
+    border-bottom:solid black;
+  }
+    .master-container {
+    display:flex;
+    width:10%;
+    position: relative;
+    left: 30px;
+  }
+  
+  .burger-menu { 
+    margin-top:25px;
+    cursor:pointer;
+  
+  }
+  .bar {
+    
+     transition:0.4s;
+    padding: 10px;
+    border-radius: 1em 1em / 1em 1em;
+border:solid black;
+    
+  } 
+  .bar-1 {
+    
+    width:5em;
+    display: block;
+    width: 40px;
+    border-top: 6px solid black;
+    padding-top:6px;
+    cursor:pointer;
+    transition:0.4s;
+   
+  }
+   .bar-2 {     
+    width:5em;
+    display: block;
+    width: 40px;
+    border-top: 6px solid black;
+    padding-top:5px;  
+    display:fixed;
+    transition:0.4s;
+
+    }
+     .bar-3 {  
+  
+    width:5em;
+    display: block;
+    width: 40px;
+    border-top: 6px solid black;
+    padding-top:5px;
+    transition:0.4s;
+
+    }
+  .change .bar-1 {
+  
+  -webkit-transform: rotate(-45deg) translate(-10px, 5px);
+      transform: rotate(-45deg) translate(-10px, 8px);
+  }
+  
+  .change .bar-2 {opacity:0;}
+  
+  .change .bar-3 {
+      -webkit-transform: rotate(45deg) translate(-10px, 5px);
+      transform: rotate(45deg) translate(-10px, -5px);
+  }
+  /*telegram watcap viber*/
+  .telegram{
+    width:80px;
+  }
+  .rembo{
+    display: flex;
+    justify-content: space-between;
+  }
+  /*Шапка сайту*/
+  .caph3{
+    background-color:rgba(230, 217, 217, 0.471);
+    text-align: center;
+    height: 150px;
+    width: 600px;
+    position: relative;
+    top:50px;
+    left: 200px;
+    border-radius: 4em 4em / 4em 4em;
+    border:solid black;
+}
+.caph3>h3{
+ 
+  font-size: 50px;
+}
+.capp{
+  position: relative;
+  top:70px;
+  background-color:rgba(230, 217, 217, 0.471);
+  text-align: center;
+  height: 100px;
+  width: 500px;
+  left: 800px;
+  border:solid black;
+  font-size: 25px;
+  border-radius: 2em 2em / 2em 2em;
+}
+
+/* Down one pages*/
+.down{
+  position: relative;
+  top:350px;
+  display:flex;
+  justify-content: space-around;
+ 
+}
+.div{
+  background-color:rgba(230, 217, 217, 0.471);
+  height: 100px;
+  width: 300px;
+  border-radius: 1em 1em / 1em 0.8em;
+  font-size: 40px;
+  border: solid black;
+}
+/*Форма реєстрації*/
+#important{
+  padding-top:90px;
+  padding: auto;
+  margin: 0px;
+}
+.form{
+  height: 800px;
+  width: 500px;
+  border-radius: 2em ;
+  border:solid black;
+  position: relative;
+  left: 700px;
+}
+.form h3{
+  font-size: 30px;
+  text-align: center;
+}
+.form_input{
+  font-size: 30px;
+  background-color: rgb(239, 176, 227,0.3);
+  border-radius: 2em 2em / 2em 2em;
+  border:solid black;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 40px;
+}
+.form button{
+  border-radius: 1em 1em / 1em 0.8em;
+  border:solid black;
+  font-size: 30px;
+  background: rgb(239, 176, 227,0.3); 
+  width: 400px;
+  height: 100px;
+  margin: 7px 45px;
+
+}
+.material-icons{
+  width: 300px;
+}
+.house{
+  width: 60px;
+  height: 60px;
+  padding-left: 40px;
+  position: relative;
+  bottom: 50px;
+  cursor:pointer;
+}
+/*валідація форми */
+.error{
+  border:solid black;
+  font-size: 30px;
+  background: rgb(205, 242, 131);
+  position: relative;
+  left: 50px; 
+  height: 40px;
+  width: 380px;
+  border-radius: 0.4em;
+}
+/*Про лікарню about up*/
+.about1{
+  background: rgba(56, 55, 56, 0.3); 
+}
+.about{
+  display: flex;
+  padding: 100px;
+}
+.about div{
+
+  font-size: 30px;
+  border:solid black;
+  border-left: 0px;
+  max-width: 400px;
+}
+#oneplan{
+  border-left: 3px solid black;
+}
+.about div img{
+  width: 140px;
+  position: relative;
+  left: 100px;
+}
+#about{
+  text-decoration:none;
+      color:black;
+}
+/*google map*/
+#map {
+  height: 700px;
+  width: 100%;
+}
+.mapa{
+  font-size: 100px;
+  text-align: center;
+}
+#dottel{
+  height: 800px;
+  width: 800px;
+}
+/*фіксація меню*/
+.f-nav{
+  background-color:rgb(130, 156, 128);
+  z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;
+  text-decoration:none;
+  list-style-type: none;
+  font-size: 40px;
+
+}
+ /* down sait*/
+ .contact{
+  background-color: rgb(130, 156, 128);
+  padding: 50px;
+  font-size: 30px;
+  display: flex;
+
+
+ } 
+ .contact a{
+  padding: 50px;
+ }
+ .foninform{
+  display: flex;
+  background: rgba(56, 55, 56, 0.3);
+ }
+ .information{
+ 
+  border-right: 2px solid;
+  font-size: 30px;
+  padding: 30px;
+ }
+ .information img{
+  width: 100px;
+  opacity:0.7;
+ }
+ #hospital{
+width: 1100px;
+opacity: 0.6;
+ }
